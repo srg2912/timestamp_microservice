@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timestamp Microservice</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Timestamp Microservice</h1>
+    <p>A full stack JavaScript app that returns Unix and UTC timestamps for a given date.</p>
+    
+    <div class="section">
+      <h2>Usage</h2>
+      <ul>
+        <li><code>GET /api/</code> - Returns the current time</li>
+        <li><code>GET /api/2015-12-25</code> - Returns timestamp for the date</li>
+        <li><code>GET /api/1451001600000</code> - Returns timestamp for the Unix time (ms)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Example Output</h2>
+      <pre><code>{
+  "unix": 1451001600000,
+  "utc": "Fri, 25 Dec 2015 00:00:00 GMT"
+}</code></pre>
+    </div>
+
+    <div class="section">
+      <h2>Error Example</h2>
+      <pre><code>{
+  "error": "Invalid Date"
+}</code></pre>
+    </div>
+  </div>
+</body>
+</html>
