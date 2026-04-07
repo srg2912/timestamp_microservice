@@ -35,7 +35,7 @@ Visit `http://localhost:3000`
 
 ## Deployment
 
-WIP
+You can test the service [here](https://timestamp-microservice-67lk.onrender.com/)
 
 ## License
 
