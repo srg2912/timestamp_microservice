@@ -33,10 +33,6 @@ Visit `http://localhost:3000`
 | `/api/2015-12-25` | `{"unix":1451001600000,"utc":"Fri, 25 Dec 2015 00:00:00 GMT"}` |
 | `/api/invalid` | `{"error":"Invalid Date"}` |
 
-## Deployment
-
-You can test the service [here](https://timestamp-microservice-67lk.onrender.com/)
-
 ## License
 
 MIT
